@@ -1,0 +1,7 @@
+packages/common/nushell/history.txt
+packages/common/nushell/local.env.nu
+
+.claude
+CLAUDE.md
+.direnv
+.pre-commit-config.yaml
