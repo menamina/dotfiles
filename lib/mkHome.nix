@@ -30,8 +30,6 @@ inputs.home-manager.lib.homeManagerConfiguration {
 
   modules =
     [
-      inputs.catppuccin.homeModules.catppuccin
-      inputs.spicetify-nix.homeManagerModules.default
       ../home.nix
       ../home
       path

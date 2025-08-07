@@ -8,29 +8,9 @@ in
   imports = [ ];
 
   flake = {
-    darwinConfigurations = {
-      macbook = mkSystem {
-        hostName = "macbook";
-        system = "aarch64-darwin";
-        username = "mena";
-        extraSystemModules = [
-          {
-            home-manager = {
-              useGlobalPkgs = true;
-              useUserPackages = true;
-              extraSpecialArgs = {
-                neorgWorkspace = "chalet";
-                root = ./.;
-              };
-            };
-          }
-        ];
-      };
-    };
-
     homeConfigurations = {
-      standalone = mkHome {
-        hostName = "standalone";
+      mena = mkHome {
+        hostName = "mena";
         system = "aarch64-darwin";
         username = "mena";
       };

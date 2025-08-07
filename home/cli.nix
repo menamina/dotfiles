@@ -8,15 +8,9 @@
   };
 
   home.packages = with pkgs; [
-    # android-tools  # May have Linux dependencies
-    clang
+    gcc
     gnumake
-
-    himalaya
-
     neofetch
-    readline
-    typst
 
     unzip
     wget
