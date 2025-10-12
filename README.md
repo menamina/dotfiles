@@ -1,5 +1,5 @@
 # Mena's Flake
 
-```
-sudo darwin-rebuild switch --flake '.#macbook'
+```bash
+darwin-rebuild switch --flake .#mena
 ```
