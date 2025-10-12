@@ -5,16 +5,16 @@
 }: {
   home.file = {
     ".config/nvim/after" = {
-      source = config.lib.meta.createSymlink "home/common/neovim/after";
+      source = ./after;
       recursive = true;
     };
     ".config/nvim/lua" = {
-      source = config.lib.meta.createSymlink "home/common/neovim/lua";
+      source = ./lua;
       recursive = true;
     };
 
     ".config/nvim/dict.txt" = {
-      source = config.lib.meta.createSymlink "home/common/neovim/dict.txt";
+      source = ./dict.txt;
     };
 
     ".config/nvim/init.lua" = {
@@ -62,7 +62,7 @@
     };
 
     ".config/nvim/rocks.toml" = {
-      source = config.lib.meta.createSymlink "home/common/neovim/rocks.toml";
+      source = ./rocks.toml;
     };
   };
 
