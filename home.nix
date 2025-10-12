@@ -21,4 +21,9 @@
     package = lib.mkForce pkgs.nix;
     settings.experimental-features = [ "nix-command" "flakes" ];
   };
+
+  # NPM configuration
+  home.file.".npmrc".text = ''
+    prefix = ~/.npm-packages
+  '';
 }
