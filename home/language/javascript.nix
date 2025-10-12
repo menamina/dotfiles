@@ -11,7 +11,7 @@
     tailwindcss-language-server
     vscode-langservers-extracted
   ];
-    # NPM configuration
+  # NPM configuration
   home.file.".npmrc".text = ''
     prefix = ~/.npm-packages
   '';

@@ -2,7 +2,7 @@
 , ...
 }:
 let
-  inherit (import ../lib { inherit inputs; }) mkSystem mkHome;
+  inherit (import ../lib { inherit inputs; }) mkHome;
 in
 {
   imports = [ ];
