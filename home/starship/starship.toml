@@ -28,6 +28,9 @@ style = "italic sky"
 format = "[$time]($style)"
 time_format = "%A, %B %e at %I:%M%P"
 
+[package]
+disabled = true
+
 [palettes.light]
 rosewater = "#dc8a78"
 flamingo = "#dd7878"
