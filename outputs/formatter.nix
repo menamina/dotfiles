@@ -11,14 +11,14 @@
         beautysh.enable = true;
         deadnix.enable = true;
         taplo.enable = true;
-        prettier = {
-          enable = true;
-          settings = {
-            printWidth = 80;
-            proseWrap = "always";
-            tabWidth = 2;
-          };
-        };
+        # prettier = {
+        # enable = true;
+        # settings = {
+        # printWidth = 80;
+        # proseWrap = "always";
+        # tabWidth = 2;
+        # };
+        # };
       };
 
       settings.formatter = {
