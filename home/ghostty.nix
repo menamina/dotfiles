@@ -20,7 +20,7 @@
 
           shell-integration = none
 
-          theme = catppuccin-mocha
+          theme = Catppuccin Mocha
 
           background-opacity = 0.8
           background-blur-radius = 20

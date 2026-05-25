@@ -11,9 +11,13 @@
     gcc
     gnumake
     neofetch
+    postgresql
 
     unzip
     wget
     zellij
+
+    cargo
+    rustc
   ];
 }

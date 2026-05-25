@@ -15,6 +15,7 @@
         "workbench.preferredLightColorTheme" = "Catppuccin Latte";
         "editor.formatOnSave" = true;
         "editor.defaultFormatter" = "esbenp.prettier-vscode";
+        "editor.minimap.enabled" = false;
       };
     };
   };

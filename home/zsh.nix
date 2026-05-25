@@ -4,7 +4,7 @@
     enableCompletion = true;
     syntaxHighlighting.enable = true;
     initContent = ''
-      export PATH="$HOME/.npm-packages/bin:$PATH"
+      export PATH="$HOME/.npm-packages/bin:$HOME/.cargo/bin:$PATH"
     '';
   };
 

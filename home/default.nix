@@ -8,6 +8,7 @@
     ./desktop.nix
     ./git.nix
     ./ghostty.nix
+    ./tmux.nix
     ./zsh.nix
   ];
 }
